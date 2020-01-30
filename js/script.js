@@ -11,32 +11,35 @@ project 1 - A Random Quote Generator
  * `quotes` array
 ***/
 var quotes = [
-  {quote: ,
-  source: ,
-citation: ,
-year:},
+  {quote: '“Believe nothing you hear, and only one half that you see.”' ,
+  source: "Edgar Allan Poe",
+citation: "",
+year:"1902"},
 
-{quote: ,
-source: ,
-citation: ,
-year:}
+{quote: '“Lord, what fools these mortals be!”',
+source: "William Shakespeare" ,
+citation: "A Midsummer Night's Dream",
+year: ""}
+,
+{quote: '“You are a manipulator. I like to think of myself more as an outcome engineer.”'
+,
 
-{quote: ,
-source: ,
-citation: ,
-year:}
-
-{quote: ,
-source: ,
-citation: ,
-year:}
-
-{quote: ,
-source: ,
-citation: ,
-year:}
+source: "J.R. Ward",
+citation: "Lover Eternal",
+year: ""}
+,
+{quote: '"When I was a kid my parents moved a lot, but I always found them."',
+source: "Rodney Dangerfield",
+citation: "",
+year:""}
+,
+{quote: '"Rice is great when you’re hungry and you want 2000 of something."',
+source: "Mitch Hedberg",
+citation:"" ,
+year:""}
 ];
 
+console.log(quotes);
 /***
  * `getRandomQuote` function
 ***/
