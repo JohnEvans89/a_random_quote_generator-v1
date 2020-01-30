@@ -10,8 +10,32 @@ project 1 - A Random Quote Generator
 /***
  * `quotes` array
 ***/
+var quotes = [
+  {quote: ,
+  source: ,
+citation: ,
+year:},
 
+{quote: ,
+source: ,
+citation: ,
+year:}
 
+{quote: ,
+source: ,
+citation: ,
+year:}
+
+{quote: ,
+source: ,
+citation: ,
+year:}
+
+{quote: ,
+source: ,
+citation: ,
+year:}
+];
 
 /***
  * `getRandomQuote` function
