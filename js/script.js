@@ -43,24 +43,26 @@ year:""}
 
 function getRandomQuote() {
 var getRandom = Math.floor(Math.random() * quotes.length);
-
 return [getRandom];};
 
 
-function getRandomQuote2() {
-var getRandom = [Math.floor(Math.random() * quotes.length)];
-return (getRandom);};
-
 console.log(getRandomQuote());
-
-console.log(getRandomQuote2());
-
 
 
 /***
  * `printQuote` function
 ***/
-
+function printQuote(){
+var storeQuote = (getRandomQuote());
+var string ="<p class='quote'> storeQuote.quote </p>";
+    string+="<p class='source'> storeQuote.source";
+if (quotes.citation){
+      string+="<span class='citation'>storeQuote.citation</span>"};
+if (quotes.year) {
+    string+="<span class='year'>storeQuote.year</span>"};
+string+="</p"
+document.getElementById('quote-box').innerHTML = string;
+};
 
 
 /***
