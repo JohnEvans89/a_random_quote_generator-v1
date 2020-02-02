@@ -40,11 +40,20 @@ year:""}
 /***
  * `getRandomQuote` function
 ***/
+
 function getRandomQuote() {
+var getRandom = Math.floor(Math.random() * quotes.length);
+
+return [getRandom];};
+
+
+function getRandomQuote2() {
 var getRandom = [Math.floor(Math.random() * quotes.length)];
-  return (getRandom);
-  console.log(getRandom);
-};
+return (getRandom);};
+
+console.log(getRandomQuote());
+
+console.log(getRandomQuote2());
 
 
 
