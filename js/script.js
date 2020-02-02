@@ -64,6 +64,7 @@ string+="</p"
 document.getElementById('quote-box').innerHTML = string;
 };
 
+console.log(printQuote());
 
 /***
  * click event listener for the print quote button
