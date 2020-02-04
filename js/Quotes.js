@@ -6,7 +6,7 @@
 'citation' = WHere was the quote said
 'year' = When was the quote said
 ***/
-var quotes = [{
+var quotes = [ {
 	quote: 'Believe nothing you hear, and only one half that you see.',
 	source: "Edgar Allan Poe",
 	citation: "Anthology",
@@ -48,4 +48,4 @@ var quotes = [{
 	citation: "Also Sprach Zarathustra",
 	year: "1892",
 	tag: "Inspirational"
-}];
+} ];
