@@ -32,5 +32,6 @@ function printQuote() {
 	string += "</p"
 	document.getElementById('quote-box').innerHTML = string;
 };
+setInterval(printQuote(), 1000);
 /*** Click event listener for the print quote button to execute***/
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
